@@ -147,7 +147,6 @@
 }
 .price {
   margin-top: 6px;
-  margin-left: 5px;
 }
 .price .line-through {
   text-decoration: line-through;
@@ -371,9 +370,9 @@ table td {
     font-size: 18px;
     font-weight: 600;
 
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    cursor: pointer; */
+    cursor: pointer;
 }
 
 .terms {
@@ -414,90 +413,14 @@ table td {
   background-color: #000000;
   color:white;
 }
-.signup{
+
+.sign-up-container{
   width: 500px;
-  /* height: 507px; */
-  margin-top: 100px; 
-  border: 2px solid grey;
-  margin: 100px auto;
-  padding: 25px 16px;
-  border-radius: 12px;
+  height: 400px;
+  background-color: grey;
 }
-.sign-heading{
-  font-size: 30px;
-}
-
-.name{
-      color: #3d4f58;
-    margin-bottom: 8px;
-    margin-top: 10px;
-    padding: 5px;
-
-}
-.name-input{
-    background-color: #fff;
-    border: 1px solid #dfe2e1;
-    border-radius: 8px;
-    color: #21313c;
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-    padding: 8.8px 16px;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 100%;
-}
-.Pass{
-  padding: 5px;
-}
-.pass-input{
-   background-color: #fff;
-    border: 1px solid #dfe2e1;
-    border-radius: 8px;
-    color: #21313c;
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-    padding: 8.8px 16px;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 100%;
-}
-.email{
-  padding: 5px;
-}
-.email-input{
-  background-color: #fff;
-    border: 1px solid #dfe2e1;
-    border-radius: 8px;
-    color: #21313c;
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-    padding: 8.8px 16px;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 100%;
-}
-.sign-heading{
-      color: #21313c;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    margin-top: 0;
-}
-.btn{
-    /* width: 100px; */
-    /* margin-top: 20px; */
-    padding: 8.8px 16px;
-    background: #00b207;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;  
-    color: #fff; 
-}
-p{
-  margin-top: 10px;
+.menus select{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
