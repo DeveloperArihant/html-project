@@ -420,6 +420,7 @@ table td {
   background-color: grey;
 }
 .menus select{
+  
   border: none;
   background-color: transparent;
   cursor: pointer;
