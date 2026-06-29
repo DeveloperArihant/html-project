@@ -1,50 +1,51 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login</title>
-    <link href="../css/style.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="signup">
-      <h3 class="sign-heading">
-        Sign Up
-        <div class="float-right">
-          <a href="../index.html" class="cart-btn" ><i class="ri-close-large-line"></i>
-          </a>
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>login</title>
+      <link href="../css/style.css" rel="stylesheet" />
+      <link rel="icon" href="../images/shopping-cart (1).png"/>
+      <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+        rel="stylesheet"
+      />
+    </head>
+    <body>
+      <div class="signup">
+        <h3 class="sign-heading">
+          Sign Up
+          <div class="float-right">
+            <a href="../index.html" class="cart-btn" ><i class="ri-close-large-line"></i>
+            </a>
+          </div>
+        </h3>
+        <label class="name">name</label>
+        <br />
+        <input type="text" placeholder="Enter your Name" class="name-input" />
+        <br />
+        <label class="email" > Email Address</label>
+        <br />
+        <input type="Email" placeholder="Enter your Email" class="email-input" />
+        <br />
+        <br />
+        <label class="Pass"> Password </label>
+        <br />
+        <input type="password" id="pass" placeholder="Enter your Password" class="pass-input" />
+
+        <label>
+          <input
+            type="checkbox" onclick="const p = document.getElementById('pass');  p.type = p.type === 'password' ? 'text' : 'password';"/>
+            Show Password
+        </label>
+        <div class="terms">
+          By Signup, you agree to our <a href="#">Terms of Service </a>& <a href="#">Privacy Policy</a>
         </div>
-      </h3>
-      <label class="name"> name </label>
-      <br />
-      <input type="text" placeholder="Enter your Name" class="name-input" />
-      <br />
-      <label class="email" > Email Address</label>
-      <br />
-      <input type="Email" placeholder="Enter your Email" class="email-input" />
-      <br />
-      <br />
-      <label class="Pass"> Password </label>
-      <br />
-      <input type="password" id="pass" placeholder="Enter your Password" class="pass-input" />
+        <button type="submit" class="btn btn-primary" class="checkout-btn">Sign Up</button>
 
-      <label>
-        <input
-          type="checkbox" onclick="const p = document.getElementById('pass');  p.type = p.type === 'password' ? 'text' : 'password';"/>
-          Show Password
-      </label>
-      <div class="terms">
-        By Signup, you agree to our <a href="#">Terms of Service </a>& <a href="#">Privacy Policy</a>
+        <p align="center">Already have an account?
+        <a href="#" class="" style="color: #0bc40b; text-decoration: none;">Sign in</a>
+      </p>
       </div>
-      <button type="submit" class="btn btn-primary" class="checkout-btn">Sign Up</button>
-
-      <p align="center">Already have an account?
-<a href="#" class="" style="color: #0bc40b; text-decoration: none;">Sign in</a>
-    </p>
-    </div>
-  </body>
-</html>
+    </body>
+  </html>
